@@ -2,6 +2,7 @@
 #define speed ios_base::sync_with_stdio(false);cin.tie(NULL);
 using namespace std;
 
+//Creditos: https://www.geeksforgeeks.org/quick-sort-algorithm/
 
 int particion(vector <int> &numeros, int inicio, int fin){
     int pivote = numeros[fin];
